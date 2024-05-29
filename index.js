@@ -47,7 +47,7 @@ let templateCode =
 let template = Handlebars.compile(templateCode)
 let productsContainer = document.querySelector('#productsContainer');
 // Замени хранилища на свои, если хочешь
-let PRODUCTS_URL = `https://studyprograms.informatics.ru/api/jsonstorage/?id=8e293c9358f1070b7fd026bf372c8211`;
+let PRODUCTS_URL = `https://studyprograms.informatics.ru/api/jsonstorage/?id=eed9d9c226ff7c3a8e6982e4029ea24d`;
 class Target {
     constructor(text) {
         this.text = text;
